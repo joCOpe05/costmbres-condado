@@ -1,0 +1,208 @@
+@charset "utf-8";
+#parrafo1 {
+	border: medium solid hsla(0,0%,0%,1.00);
+	background-color: hsla(205,8%,29%,0.58);
+	color: hsla(0,0%,0%,0.00);
+	position: relative;
+	z-index: 3;
+	height: 28pt;
+	top: -45pt;
+}
+
+#imagen2 {
+	position: relative;
+	width: 63px;
+	height: 37px;
+	z-index: 5;
+	left: 6pt;
+	transition: 1s;
+}
+#imagen2:hover {
+	transform: scale(1.5);
+	transition: 0.2s;
+}
+#parrafo2 {
+	position: absolute;
+	z-index: 6;
+	/* [disabled]text-align: right; */
+	right: 16pt;
+	top: 0pt;
+	color: hsla(0,0%,100%,1.00);
+	border: medium solid hsla(0,0%,0%,1.00);
+	border-radius: 50pt;
+	/* [disabled]background-color: hsla(0,0%,0%,1.00); */
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-style: oblique;
+	font-size: 11pt;
+	text-transform: capitalize;
+	transition: 1.5s
+}
+#parrafo2:hover {
+	background-color: hsla(248,100%,50%,1.00);
+	transition: 0.5s;
+	border-color: hsla(0,0%,0%,0.45);
+	transform: scale(1.1);
+}
+#parrafo3 {
+	position: absolute;
+	z-index: 6;
+	/* [disabled]text-align: right; */
+	right: 135pt;
+	top: 0pt;
+	color: hsla(0,0%,100%,1.00);
+	border: medium solid hsla(0,0%,0%,1.00);
+	border-radius: 50pt;
+	/* [disabled]background-color: hsla(0,0%,0%,1.00); */
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-style: oblique;
+	font-size: 11pt;
+	text-transform: capitalize;
+	transition: 1.5s
+}
+#parrafo3:hover {
+	background-color: hsla(248,100%,50%,1.00);
+	transition: 0.5s;
+	border-color: hsla(0,0%,0%,0.45);
+	transform: scale(1.1);
+}
+#parrafo4 {
+	position: absolute;
+	z-index: 6;
+	/* [disabled]text-align: right; */
+	right: 224pt;
+	top: 0pt;
+	color: hsla(0,0%,100%,1.00);
+	border: medium solid hsla(0,0%,0%,1.00);
+	border-radius: 50pt;
+	/* [disabled]background-color: hsla(0,0%,0%,1.00); */
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-style: oblique;
+	font-size: 11pt;
+	text-transform: capitalize;
+	transition: 1.5s
+}
+#parrafo4:hover {
+	background-color: hsla(248,100%,50%,1.00);
+	transition: 0.5s;
+	border-color: hsla(0,0%,0%,0.45);
+	transform: scale(1.1);
+}
+
+#titulo-margenes {
+	border: medium solid hsla(0,0%,0%,1.00);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#titulo-margenes span {
+	text-align: center;
+	display: block;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: italic;
+	text-transform: uppercase;
+	transition: 1s;
+	font-size: large;
+}
+#titulo-margenes:hover span {
+	transform: scale(1.5);
+	transition: 0.3s;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: x-large;
+	color: hsla(0,0%,100%,1.00);
+}
+#titulo-margenes:hover {
+	background-color: hsla(0,0%,0%,1.00);
+}
+
+#imagen-titulo {
+	width: auto;
+	min-width: 100%;
+	position: absolute;
+	left: -3pt;
+	top: 0pt;
+	height: 15cm;
+	z-index: -3;
+}
+#hades {
+	text-align: center;
+	position: relative;
+	display: block;
+	top: 309pt;
+	border: medium solid hsla(0,0%,0%,1.00);
+	font-size: large;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: hsla(62,100%,50%,1.00);
+}
+#tema-hades {
+	text-align: center;
+	position: relative;
+	display: block;
+	top: 309pt;
+	border: medium solid hsla(0,0%,0%,1.00);
+}
+#lista-hades {
+	text-align: justify;
+	position: relative;
+	display: block;
+	top: 309pt;
+	border: medium solid hsla(0,0%,0%,1.00);
+}
+#atenea {
+	text-align: center;
+	position: relative;
+	display: block;
+	top: 309pt;
+	border: medium solid hsla(0,0%,0%,1.00);
+	font-size: large;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: hsla(56,100%,50%,1.00);
+}
+#tema-atenea {
+	text-align: center;
+	position: relative;
+	display: block;
+	top: 309pt;
+	border: medium solid hsla(0,0%,0%,1.00);
+}
+#lista-atenea {
+	text-align: justify;
+	position: relative;
+	display: block;
+	top: 309pt;
+	border: medium solid hsla(0,0%,0%,1.00);
+}
+#helios {
+		text-align: center;
+	position: relative;
+	display: block;
+	top: 309pt;
+	border: medium solid hsla(0,0%,0%,1.00);
+	font-size: large;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: hsla(56,100%,50%,1.00);
+}
+#tema-helios {
+	text-align: center;
+	position: relative;
+	display: block;
+	top: 309pt;
+	border: medium solid hsla(0,0%,0%,1.00);
+}
+#lista-helios {
+	text-align: justify;
+	position: relative;
+	display: block;
+	top: 309pt;
+	border: medium solid hsla(0,0%,0%,1.00);
+}

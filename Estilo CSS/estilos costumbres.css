@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+#heading1 {
+	text-align: center;
+	border-top-width: medium;
+	border-top-style: solid;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 20px;
+	position: relative;
+	top: -166pt;
+}
+#parrafo1 {
+	border: medium solid hsla(0,0%,0%,1.00);
+	background-color: hsla(205,8%,29%,0.58);
+	color: hsla(0,0%,0%,0.00);
+	position: relative;
+	top: -46pt;
+	z-index: 3;
+	height: 28pt;
+}
+#H2 {
+	border-width: medium;
+	border-style: solid;
+	font-size: 37px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	text-transform: uppercase;
+	font-style: italic;
+	text-decoration: underline;
+	position: relative;
+	top: -180pt;
+	text-align: center;
+}
+#H2:hover {
+	background-color: hsla(56,100%,50%,0.51);
+	transition: 1s;
+}
+#imagen1 {
+	z-index: -1;
+	position: relative;
+	margin-bottom: -308px;
+	width: auto;
+	height: 500px;
+	min-width: 102%;
+	margin-left: -10px;
+	margin-top: -10px;
+            }
+
+#imagen2 {
+	position: relative;
+	width: 63px;
+	height: 37px;
+	z-index: 5;
+	top: 0pt;
+	left: 6pt;
+	transition: 1s;
+}
+#imagen2:hover {
+	transform: scale(1.5);
+	transition: 0.2s;
+}
+
+#parrafo3 {
+	position: absolute;
+	z-index: 6;
+	/* [disabled]text-align: right; */
+	right: 15pt;
+	top: 0pt;
+	color: hsla(0,0%,100%,1.00);
+	border: medium solid hsla(0,0%,0%,1.00);
+	border-radius: 50pt;
+	/* [disabled]background-color: hsla(0,0%,0%,1.00); */
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-style: oblique;
+	font-size: 11pt;
+	text-transform: capitalize;
+	transition: 1.5s;
+}
+#parrafo3:hover {
+	background-color: hsla(248,100%,50%,1.00);
+	transition: 0.5s;
+	border-color: hsla(0,0%,0%,0.45);
+	transform: scale(1.1);
+}
+#parrafo4 {
+	position: absolute;
+	z-index: 6;
+	/* [disabled]text-align: right; */
+	right: 104pt;
+	top: 0pt;
+	color: hsla(0,0%,100%,1.00);
+	border: medium solid hsla(0,0%,0%,1.00);
+	border-radius: 50pt;
+	/* [disabled]background-color: hsla(0,0%,0%,1.00); */
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-style: oblique;
+	font-size: 11pt;
+	text-transform: capitalize;
+	transition: 1.5s;
+}
+#parrafo4:hover {
+	background-color: hsla(248,100%,50%,1.00);
+	transition: 0.5s;
+	border-color: hsla(0,0%,0%,0.45);
+	transform: scale(1.1);
+}
+#parrafo5 {
+	position: absolute;
+	z-index: 6;
+	/* [disabled]text-align: right; */
+	right: 191pt;
+	top: 0pt;
+	color: hsla(0,0%,100%,1.00);
+	border: medium solid hsla(0,0%,0%,1.00);
+	border-radius: 50pt;
+	/* [disabled]background-color: hsla(0,0%,0%,1.00); */
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-style: oblique;
+	font-size: 11pt;
+	text-transform: capitalize;
+	transition: 1.5s;
+}
+#parrafo5:hover {
+	background-color: hsla(248,100%,50%,1.00);
+	transition: 0.5s;
+	border-color: hsla(0,0%,0%,0.45);
+	transform: scale(1.1);
+}#titulo-costumbres {
+	text-align: center;
+	text-transform: uppercase;
+	border: medium solid hsla(0,0%,0%,1.00);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+	top: -24pt;
+}
+#titulo-costumbres span {
+	background-color: hsla(60,100%,50%,1.00);
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calcular promedio de color de imagen</title>
+    <script src="https://cdn.jsdelivr.net/npm/color-js@2.0.1/dist/color.min.js"></script>
+  </head>
+  <body>
+    <h1>Calcular promedio de color de imagen</h1>
+    <form>
+      <label for="rutaImagen">Introduzca la ruta de la imagen:</label>
+      <input type="text" id="rutaImagen" name="rutaImagen">
+      <br>
+      <button type="button" onclick="calcularPromedioColor()">Calcular promedio de color</button>
+    </form>
+    <div id="promedioColor"></div>
+    <script>
+      function calcularPromedioColor() {
+        // Obtener la ruta de la imagen
+        var rutaImagen = document.getElementById("rutaImagen").value;
+
+        // Crear un objeto de imagen
+        var imagen = new Image();
+
+        // Cuando la imagen se cargue, calcular el promedio de color
+        imagen.onload = function() {
+          var canvas = document.createElement("canvas");
+          canvas.width = imagen.width;
+          canvas.height = imagen.height;
+
+          var context = canvas.getContext("2d");
+          context.drawImage(imagen, 0, 0);
+
+          var imageData = context.getImageData(0, 0, canvas.width, canvas.height);
+          var pixels = imageData.data;
+
+          var rTotal = 0;
+          var gTotal = 0;
+          var bTotal = 0;
+
+          for (var i = 0; i < pixels.length; i += 4) {
+            rTotal += pixels[i];
+            gTotal += pixels[i + 1];
+            bTotal += pixels[i + 2];
+          }
+
+          var pixelCount = pixels.length / 4;
+          var rPromedio = Math.round(rTotal / pixelCount);
+          var gPromedio = Math.round(gTotal / pixelCount);
+          var bPromedio = Math.round(bTotal / pixelCount);
+
+          var color = new Color().rgb(rPromedio, gPromedio, bPromedio);
+          var hex = color.hex();
+          var hsl = color.hsl().string();
+
+          console.log("Promedio de color: RGB(" + rPromedio + ", " + gPromedio + ", " + bPromedio + "), HEX #" + hex + ", HSL " + hsl);
+
+          var promedioColorDiv = document.getElementById("promedioColor");
+          promedioColorDiv.innerHTML = "Promedio de color: RGB(" + rPromedio + ", " + gPromedio + ", " + bPromedio + "), HEX #" + hex + ", HSL " + hsl;
+        };
+
+        // Cargar la imagen
+        imagen.src = rutaImagen;
+      }
+    </script>
+  </body>
+</html>
